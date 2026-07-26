@@ -6,6 +6,13 @@ from app.domain.document import (
     Paragraph,
     Sentence,
 )
+from app.domain.mention import ExtractionSummary, Mention
+from app.domain.resolution import (
+    CanonicalPerson,
+    EntityResolution,
+    ResolutionEvidence,
+    ResolutionSummary,
+)
 
 __all__ = [
     "BoundingBox",
@@ -14,4 +21,10 @@ __all__ = [
     "Page",
     "DocumentHeader",
     "DocumentStructured",
+    "Mention",
+    "ExtractionSummary",
+    "CanonicalPerson",
+    "EntityResolution",
+    "ResolutionEvidence",
+    "ResolutionSummary",
 ]

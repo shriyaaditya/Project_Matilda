@@ -25,6 +25,29 @@ class Settings(BaseSettings):
     ALLOWED_MIME_TYPES: list[str] = ["application/pdf"]
     UPLOAD_DIR: str = "storage/uploads"
 
+    # Concept Extraction Noise Filter (Configurable list of generic textbook filler terms)
+    CONCEPT_NOISE_WORDS: list[str] = [
+        "chapter",
+        "page",
+        "figure",
+        "table",
+        "section",
+        "book",
+        "textbook",
+        "method",
+        "author",
+        "experiment",
+        "result",
+        "example",
+        "percent",
+        "unit",
+        "value",
+        "study",
+        "work",
+        "data",
+        "analysis",
+    ]
+
     # PostgreSQL Database Configuration
     POSTGRES_SERVER: str = "localhost"
     POSTGRES_PORT: int = 5432
