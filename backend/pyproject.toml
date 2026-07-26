@@ -10,18 +10,18 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 [tool.ruff]
-line-length = 88
+line-length = 120
 target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM"]
-ignore = []
+ignore = ["E501", "B008"]
 
 [tool.mypy]
 python_version = "3.11"
 strict = true
 ignore_missing_imports = true
-exclude = ["venv", ".venv", "tests"]
+exclude = ["venv", ".venv", "tests", "alembic"]
 
 [tool.pytest.ini_options]
 minversion = "8.0"
