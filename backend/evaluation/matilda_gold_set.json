@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Project Matilda Development Benchmark Gold Set",
+    "dataset_type": "DEVELOPMENT_BENCHMARK",
+    "total_cases": 36,
+    "development_cases": 22,
+    "holdout_cases": 14
+  },
+  "cases": [
+    {
+      "case_id": "OM-DEV-001",
+      "category": "OMISSION_POSITIVE",
+      "split": "development",
+      "document_text": "The discovery of X-ray diffraction patterns of DNA was achieved by James Watson and Francis Crick.",
+      "expected_resolved_people": ["Q183373"],
+      "expected_concepts": ["DNA", "X-ray diffraction"],
+      "expected_findings": [
+        {
+          "finding_type": "POTENTIAL_OMISSION",
+          "wikidata_qid": "Q7474",
+          "person_label": "Rosalind Franklin",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q7474#P800"],
+      "notes": "Rosalind Franklin produced Photo 51 X-ray diffraction evidence."
+    },
+    {
+      "case_id": "OM-DEV-002",
+      "category": "OMISSION_POSITIVE",
+      "split": "development",
+      "document_text": "Theoretical physics developed rapidly following conservation laws in symmetry.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["Noether's theorem"],
+      "expected_findings": [
+        {
+          "finding_type": "POTENTIAL_OMISSION",
+          "wikidata_qid": "Q7099",
+          "person_label": "Emmy Noether",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q7099#P800"],
+      "notes": "Emmy Noether proved Noether's theorem."
+    },
+    {
+      "case_id": "OM-DEV-003",
+      "category": "OMISSION_NEGATIVE_CONTROL",
+      "split": "development",
+      "document_text": "General introduction to elementary linear algebra and vector space properties.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["linear algebra", "vector space"],
+      "expected_findings": [],
+      "authoritative_references": [],
+      "notes": "General textbook introduction without specific scientist omissions."
+    },
+    {
+      "case_id": "OM-DEV-004",
+      "category": "CONTRIBUTOR_PRESENT",
+      "split": "development",
+      "document_text": "Emmy Noether proved the fundamental theorem relating symmetry and conservation laws in 1915.",
+      "expected_resolved_people": ["Q7099"],
+      "expected_concepts": ["Noether's theorem", "symmetry"],
+      "expected_findings": [
+        {
+          "finding_type": "CREDIT_ALIGNS",
+          "wikidata_qid": "Q7099",
+          "person_label": "Emmy Noether",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q7099#P800"],
+      "notes": "Emmy Noether is present and accurately credited."
+    },
+    {
+      "case_id": "CR-DEV-001",
+      "category": "UNDERATTRIBUTION_CASE",
+      "split": "development",
+      "document_text": "Rosalind Franklin assisted in observing Photo 51 during DNA structure research.",
+      "expected_resolved_people": ["Q7474"],
+      "expected_concepts": ["Photo 51", "DNA"],
+      "expected_findings": [
+        {
+          "finding_type": "POSSIBLE_UNDERATTRIBUTION",
+          "wikidata_qid": "Q7474",
+          "person_label": "Rosalind Franklin",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q7474#P800"],
+      "notes": "Document uses assisting verb for independent experimental discovery."
+    },
+    {
+      "case_id": "CR-DEV-002",
+      "category": "CREDIT_ALIGNMENT",
+      "split": "development",
+      "document_text": "Chien-Shiung Wu demonstrated parity violation in nuclear physics experiments.",
+      "expected_resolved_people": ["Q450317"],
+      "expected_concepts": ["parity violation"],
+      "expected_findings": [
+        {
+          "finding_type": "CREDIT_ALIGNS",
+          "wikidata_qid": "Q450317",
+          "person_label": "Chien-Shiung Wu",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q450317#P800"],
+      "notes": "Attribution matches historical evidence."
+    },
+    {
+      "case_id": "CR-DEV-003",
+      "category": "INSUFFICIENT_EVIDENCE_CASE",
+      "split": "development",
+      "document_text": "An unverified researcher was mentioned in connection with early computing concepts.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["computing"],
+      "expected_findings": [
+        {
+          "finding_type": "INSUFFICIENT_EVIDENCE",
+          "wikidata_qid": null,
+          "person_label": "Unverified Researcher",
+          "min_evidence_strength": "WEAK"
+        }
+      ],
+      "authoritative_references": [],
+      "notes": "Evidence is context-only or unverified."
+    },
+    {
+      "case_id": "AMB-DEV-001",
+      "category": "AMBIGUOUS_ENTITY_CASE",
+      "split": "development",
+      "document_text": "Dr. Franklin published early notes on structural chemistry.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["chemistry"],
+      "expected_findings": [],
+      "authoritative_references": [],
+      "notes": "Surname-only mention with weak context must remain AMBIGUOUS."
+    },
+    {
+      "case_id": "CORR-DEV-001",
+      "category": "CORRECTIVE_RETRIEVAL_CASE",
+      "split": "development",
+      "document_text": "Research into modern astrophysics and pulsar astronomy.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["pulsar astronomy"],
+      "expected_findings": [
+        {
+          "finding_type": "POTENTIAL_OMISSION",
+          "wikidata_qid": "Q234389",
+          "person_label": "Jocelyn Bell Burnell",
+          "min_evidence_strength": "MODERATE"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q234389"],
+      "notes": "Discovered via corrective retrieval outside Phase 4 seed."
+    },
+
+    {
+      "case_id": "OM-HOLD-001",
+      "category": "OMISSION_POSITIVE",
+      "split": "holdout",
+      "document_text": "The discovery of nuclear fission was celebrated in physics publications during 1939.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["nuclear fission"],
+      "expected_findings": [
+        {
+          "finding_type": "POTENTIAL_OMISSION",
+          "wikidata_qid": "Q78496",
+          "person_label": "Lise Meitner",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q78496#P800"],
+      "notes": "Lise Meitner co-discovered nuclear fission."
+    },
+    {
+      "case_id": "CR-HOLD-001",
+      "category": "CREDIT_ALIGNMENT",
+      "split": "holdout",
+      "document_text": "Emmy Noether formulated Noether's theorem in mathematical physics.",
+      "expected_resolved_people": ["Q7099"],
+      "expected_concepts": ["Noether's theorem"],
+      "expected_findings": [
+        {
+          "finding_type": "CREDIT_ALIGNS",
+          "wikidata_qid": "Q7099",
+          "person_label": "Emmy Noether",
+          "min_evidence_strength": "STRONG"
+        }
+      ],
+      "authoritative_references": ["wikidata:Q7099#P800"],
+      "notes": "Exact alignment."
+    },
+    {
+      "case_id": "AMB-HOLD-001",
+      "category": "AMBIGUOUS_ENTITY_CASE",
+      "split": "holdout",
+      "document_text": "E. Noether gave a guest lecture in algebra.",
+      "expected_resolved_people": [],
+      "expected_concepts": ["algebra"],
+      "expected_findings": [],
+      "authoritative_references": [],
+      "notes": "Initials with weak context must remain AMBIGUOUS."
+    }
+  ]
+}
