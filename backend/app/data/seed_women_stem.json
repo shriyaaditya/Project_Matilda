@@ -1,0 +1,1333 @@
+{
+  "version": "1.1.0-draft",
+  "description": "Project Matilda 120-person curated identity roster. Unverified QIDs are intentionally null; enrich and verify from Wikidata before production ingestion.",
+  "nodes": [
+    {
+      "node_type": "PERSON",
+      "label": "Rosalind Franklin",
+      "wikidata_qid": "Q7474",
+      "properties": {
+        "primary_field": "Molecular Biology",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "QID_VERIFIED"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Chien-Shiung Wu",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "China / United States",
+        "region": "Asia / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Lise Meitner",
+      "wikidata_qid": "Q78477",
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Austria / Sweden",
+        "region": "Europe",
+        "verification_status": "QID_VERIFIED"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Marie Curie",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Poland / France",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Maria Goeppert-Mayer",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Germany / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Donna Strickland",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Canada",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Mildred Dresselhaus",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Hertha Sponer",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Germany / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Katharine Burr Blodgett",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Margaret Eliza Maltby",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Berta Karlik",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Austria",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Marietta Blau",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Austria",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Harriet Brooks",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Canada",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Bibha Chowdhuri",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Anna Mani",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rohini Godbole",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Fabiola Gianotti",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Italy",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Sau Lan Wu",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Hong Kong / United States",
+        "region": "Asia / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Helen Quinn",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Australia / United States",
+        "region": "Oceania / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Deborah Jin",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Dorothy Crowfoot Hodgkin",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Ir\u00e8ne Joliot-Curie",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "France",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Alice Ball",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Stephanie Kwolek",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Kathleen Lonsdale",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "Ireland / United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Ida Noddack",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "Germany",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Marguerite Perey",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "France",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Clara Immerwahr",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "Germany",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rachel Fuller Brown",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Gertrude B. Elion",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Asima Chatterjee",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Darshan Ranganathan",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Tessy Thomas",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Sossina Haile",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Materials Science",
+        "country": "Ethiopia / United States",
+        "region": "Africa / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Tebello Nyokong",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "South Africa",
+        "region": "Africa",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Barbara McClintock",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rita Levi-Montalcini",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "Italy",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Tu Youyou",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "China",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Nettie Stevens",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Gerty Cori",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "Czech Republic / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rosalyn Sussman Yalow",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Fran\u00e7oise Barr\u00e9-Sinoussi",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "France",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Elizabeth Blackburn",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "Australia / United States",
+        "region": "Oceania / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Carol Greider",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Jennifer Doudna",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Emmanuelle Charpentier",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "France",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Katalin Karik\u00f3",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biochemistry",
+        "country": "Hungary / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Jane Goodall",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rachel Carson",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Lynn Margulis",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Biology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Esther Lederberg",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Microbiology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "June Almeida",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Virology",
+        "country": "Scotland / Canada",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Alice Catherine Evans",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Microbiology",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Virginia Apgar",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Patricia Bath",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rebecca Lee Crumpler",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Wangari Maathai",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Environmental Science",
+        "country": "Kenya",
+        "region": "Africa",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Quarraisha Abdool Karim",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Epidemiology",
+        "country": "South Africa",
+        "region": "Africa",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Miriam Were",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Medicine",
+        "country": "Kenya",
+        "region": "Africa",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Emmy Noether",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "Germany",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Maryam Mirzakhani",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "Iran / United States",
+        "region": "Asia / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Sophie Germain",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "France",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Ada Lovelace",
+      "wikidata_qid": "Q7259",
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "QID_VERIFIED"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Mary Cartwright",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Sofia Kovalevskaya",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "Russia / Sweden",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Julia Robinson",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Katherine Johnson",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Dorothy Vaughan",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Mary Jackson",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Euphemia Lofton Haynes",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Marjorie Lee Browne",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "R\u00f3zsa P\u00e9ter",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "Hungary",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Olga Ladyzhenskaya",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "Russia",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Karen Uhlenbeck",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Mathematics",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Vera Rubin",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Jocelyn Bell Burnell",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "Northern Ireland / United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Cecilia Payne-Gaposchkin",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United Kingdom / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Henrietta Swan Leavitt",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Caroline Herschel",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "Germany / United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Annie Jump Cannon",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Antonia Maury",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Williamina Fleming",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "Scotland / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Margaret Burbidge",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United Kingdom / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Nancy Grace Roman",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Astronomy",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Inge Lehmann",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Earth Science",
+        "country": "Denmark",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Marie Tharp",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Earth Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Grace Hopper",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Margaret Hamilton",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Radia Perlman",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Frances Allen",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Hedy Lamarr",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "Austria / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Annie Easley",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Mary Allen Wilkes",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Adele Goldstine",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Jean Bartik",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Betty Holberton",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Kathleen Booth",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United Kingdom / Canada",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Sister Mary Kenneth Keller",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Ruzena Bajcsy",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "Slovakia / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Fei-Fei Li",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "China / United States",
+        "region": "Asia / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Shafi Goldwasser",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Computer Science",
+        "country": "Israel / United States",
+        "region": "Asia / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Edith Clarke",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Lillian Moller Gilbreth",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Emily Warren Roebling",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Ellen Ochoa",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Yvonne Brill",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "Canada / United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Beatrice Shilling",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Elsie MacGill",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "Canada",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Olive Dennis",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Kate Gleason",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Luz Oliveros-Belardo",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "Philippines",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Ameenah Gurib-Fakim",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Chemistry",
+        "country": "Mauritius",
+        "region": "Africa",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Nashwa Eassa",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Physics",
+        "country": "Sudan",
+        "region": "Africa",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Pratibha Gai",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Materials Science",
+        "country": "India / United Kingdom",
+        "region": "Asia / Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Rajeswari Chatterjee",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "India",
+        "region": "Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Kalpana Chawla",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "India / United States",
+        "region": "Asia / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Valentina Tereshkova",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Aerospace",
+        "country": "Russia",
+        "region": "Europe / Asia",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Mae Jemison",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "United States",
+        "region": "North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "Mary Anning",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Paleontology",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    },
+    {
+      "node_type": "PERSON",
+      "label": "M\u00e1ria Telkes",
+      "wikidata_qid": null,
+      "properties": {
+        "primary_field": "Engineering",
+        "country": "Hungary / United States",
+        "region": "Europe / North America",
+        "verification_status": "PENDING_WIKIDATA_VERIFICATION"
+      }
+    }
+  ],
+  "edges": [],
+  "annotations": [],
+  "metadata": {
+    "person_count": 120,
+    "qid_policy": "Never guess QIDs. Null means pending automated/manual Wikidata verification.",
+    "historical_claim_policy": "Edges and sensitive historical annotations must be added separately with authoritative provenance."
+  }
+}

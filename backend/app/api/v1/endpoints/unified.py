@@ -71,13 +71,14 @@ async def get_document_unified_results(
     )
     res = await db.execute(stmt)
     analysis = res.scalars().first()
+    engine = UnifiedEngine(db)
     if not analysis:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"No unified analysis found for document {document_id}. Trigger analysis first via POST.",
+        return await engine.analyze_document_unified(
+            document_id,
+            reasoning_enabled=True,
+            explanation_enabled=True,
         )
 
-    engine = UnifiedEngine(db)
     return await engine.get_analysis_summary(analysis.id)
 
 

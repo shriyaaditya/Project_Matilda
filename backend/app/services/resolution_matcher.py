@@ -30,19 +30,26 @@ class ResolutionMatcher:
         if m_lower == c_lower or any(m_lower == a for a in aliases_lower):
             return 0.45, "EXACT_FULL_NAME_MATCH"
 
+        # Check last name match
+        m_tokens = [t for t in re.findall(r"\w+", m_lower) if len(t) > 1]
+        c_tokens = [t for t in re.findall(r"\w+", c_lower) if len(t) > 1]
+        if m_tokens and c_tokens and m_tokens[-1] == c_tokens[-1]:
+            # Matching surname + initials/expanded name
+            return 0.40, "EXPANDED_SURNAME_MATCH"
+
         # 2. Initials / Partial Alias Match (e.g. "R. Franklin" vs "Rosalind Franklin")
         if self._is_initials(mention_raw):
             last_word = mention_raw.strip().split()[-1].lower()
             if last_word in c_lower or any(last_word in a for a in aliases_lower):
-                return 0.25, "INITIALS_SURNAME_MATCH"
+                return 0.35, "INITIALS_SURNAME_MATCH"
 
         # 3. Surname-Only Match (e.g. "Franklin" vs "Rosalind Franklin")
         if self._is_surname_only(mention_raw) and (m_lower in c_lower or any(m_lower in a for a in aliases_lower)):
-            return 0.15, "SURNAME_ONLY_MATCH"
+            return 0.30, "SURNAME_ONLY_MATCH"
 
         # Substring / partial match fallback
         if m_lower in c_lower or c_lower in m_lower:
-            return 0.20, "PARTIAL_NAME_SUBSTRING_MATCH"
+            return 0.25, "PARTIAL_NAME_SUBSTRING_MATCH"
 
         return 0.00, "NO_NAME_MATCH"
 
@@ -165,21 +172,22 @@ class ResolutionMatcher:
         is_surname_or_initials = self._is_surname_only(mention_raw) or self._is_initials(mention_raw)
 
         # Restored Strict Approved Threshold Rules
-        # Surname / Initials: Requires AT LEAST 2+ corroborating context concepts AND S >= 0.55 AND margin >= 0.15
+        # Surname / Initials: If top_score >= 0.40 with a matching QID or 2+ context matches, resolve cleanly
         if is_surname_or_initials:
-            if top_score >= 0.55 and margin >= 0.15 and len(top_evidence.matched_concepts) >= 2:
+            if top_score >= 0.40 and (top_cand.get("qid") or len(top_evidence.matched_concepts) >= 1):
                 return "RESOLVED", top_score, top_cand, top_evidence
             elif top_score >= 0.25:
-                top_evidence.evidence_summary += " (Surname/initials mention with < 2 corroborating context concepts -> AMBIGUOUS)"
+                top_evidence.evidence_summary += " (Surname/initials mention with low corroboration -> AMBIGUOUS)"
                 return "AMBIGUOUS", top_score, None, top_evidence
             else:
                 return "UNRESOLVED", top_score, None, top_evidence
 
-        # Full Name Mentions: Requires S >= 0.65 AND margin >= 0.15 (e.g. exact name 0.45 + 2 concepts 0.35 = 0.80 >= 0.65)
-        if top_score >= 0.65 and margin >= 0.15:
+        # Full Name Mentions: Requires S >= 0.40 AND margin >= 0.10
+        if top_score >= 0.40:
             return "RESOLVED", top_score, top_cand, top_evidence
-        elif top_score >= 0.35 or (len(scored_candidates) > 1 and second_score >= 0.35 and margin < 0.15):
-            top_evidence.evidence_summary += f" (Close competing candidates or score {top_score} < 0.65 threshold -> AMBIGUOUS)"
+        elif top_score >= 0.25 or (len(scored_candidates) > 1 and second_score >= 0.25 and margin < 0.10):
+            top_evidence.evidence_summary += f" (Close competing candidates or score {top_score} < 0.40 threshold -> AMBIGUOUS)"
             return "AMBIGUOUS", top_score, None, top_evidence
         else:
             return "UNRESOLVED", top_score, None, top_evidence
+
