@@ -38,6 +38,7 @@ class OmissionCandidateModel(Base):
     )
     person_label: Mapped[str] = mapped_column(VARCHAR(256), nullable=False)
     wikidata_qid: Mapped[str | None] = mapped_column(VARCHAR(64), nullable=True, index=True)
+    entity_type: Mapped[str] = mapped_column(VARCHAR(32), nullable=False, default="person")
     classification: Mapped[str] = mapped_column(VARCHAR(32), nullable=False)
     has_concept_specific_evidence: Mapped[bool] = mapped_column(BOOLEAN, nullable=False, default=False)
     relevance_score: Mapped[float] = mapped_column(FLOAT, nullable=False)

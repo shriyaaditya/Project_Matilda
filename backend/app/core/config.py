@@ -77,8 +77,13 @@ class Settings(BaseSettings):
     LLM_EXPLANATION_ENABLED: bool = False
     LLM_CACHE_ENABLED: bool = True
 
+    USE_SQLITE: bool = False
+    SQLITE_DB_PATH: str = "matilda_dev.db"
+
     @property
     def ASYNC_DATABASE_URI(self) -> str:
+        if self.USE_SQLITE:
+            return f"sqlite+aiosqlite:///{self.SQLITE_DB_PATH}"
         from urllib.parse import quote_plus
 
         encoded_password = quote_plus(self.POSTGRES_PASSWORD)

@@ -1,4 +1,4 @@
-from app.services.pdf_parser import PDFParser
-from app.services.pdf_validator import PDFValidator
+from app.services.document.pdf_parser import PDFParser
+from app.services.document.pdf_validator import PDFValidator
 
 __all__ = ["PDFValidator", "PDFParser"]

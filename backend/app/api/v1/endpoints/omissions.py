@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.db.models.omission import OmissionAnalysisModel, OmissionCandidateModel
 from app.db.session import get_db
 from app.domain.omission import OmissionAnalysisSummary, OmissionCandidateRead, ScoreBreakdown
-from app.services.omission_engine import OmissionEngine
+from app.services.util.omission_engine import OmissionEngine
 
 router = APIRouter()
 
@@ -87,6 +87,7 @@ async def get_omission_candidate_details(
         id=candidate.id,
         person_label=candidate.person_label,
         wikidata_qid=candidate.wikidata_qid,
+        entity_type=getattr(candidate, "entity_type", "person"),
         classification=candidate.classification,
         has_concept_specific_evidence=candidate.has_concept_specific_evidence,
         relevance_score=candidate.relevance_score,

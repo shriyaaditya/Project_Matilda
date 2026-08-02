@@ -17,8 +17,9 @@ class OmissionCandidateRead(BaseModel):
     id: uuid.UUID
     person_label: str
     wikidata_qid: str | None = None
+    entity_type: str = Field("person", description="Entity type: person | journal | citation | institution | concept | unknown")
     classification: str = Field(
-        ..., description="Classification: POTENTIAL_OMISSION | PRESENT_RELEVANT_CONTRIBUTOR | INSUFFICIENT_EVIDENCE"
+        ..., description="Classification: POTENTIAL_OMISSION | PRESENT_RELEVANT_CONTRIBUTOR | INSUFFICIENT_EVIDENCE | UNRESOLVED | NON_CONTRIBUTOR"
     )
     has_concept_specific_evidence: bool
     relevance_score: float
